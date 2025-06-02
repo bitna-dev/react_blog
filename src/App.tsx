@@ -1,14 +1,9 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import Home from "./components/Home";
+
+import Router from "./components/Router";
 
 function App() {
-	return (
-		<>
-			<Home />
-		</>
-	);
+	return <Router />;
 }
 
 export default App;
